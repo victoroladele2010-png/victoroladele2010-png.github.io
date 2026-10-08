@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="VICTSTAR Global Connect - digital services, design, websites, typing and editing.">
+<title>VICTSTAR Global Connect</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,sans-serif;color:#10243b;background:#f7fafc}a{text-decoration:none;color:inherit}
+:root{--navy:#10243b;--green:#12b879;--mint:#e5faf1;--muted:#66778a;--white:#fff;--line:#e3e9ef}
+.nav{height:72px;background:var(--navy);color:white;display:flex;align-items:center;justify-content:space-between;padding:0 6%;position:sticky;top:0;z-index:20}.brand{display:flex;align-items:center;gap:10px;font-weight:800}.mark{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,#61efb0,#0aa16c);display:grid;place-items:center;font-size:21px}.brand b{color:#42db9c}.links{display:flex;gap:22px;align-items:center;font-size:14px}.links a{color:#dce8f3}.btn{border:0;border-radius:11px;padding:12px 18px;font-weight:750;cursor:pointer}.primary{background:var(--green);color:#fff}.secondary{background:#fff;color:var(--navy)}
+.hero{padding:78px 7%;display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center;background:linear-gradient(135deg,#f8fcff,#e8faf2)}.eyebrow{color:#078a5b;font-weight:800;letter-spacing:1px;font-size:13px}.hero h1{font-size:clamp(42px,6vw,70px);line-height:1.02;margin:14px 0}.hero h1 span{color:var(--green)}.hero p{font-size:18px;color:var(--muted);line-height:1.7;max-width:620px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.mock{background:#fff;border:1px solid var(--line);border-radius:24px;padding:16px;box-shadow:0 24px 60px #10243b18}.mockbar{background:var(--navy);color:#fff;border-radius:16px;padding:16px;display:flex;justify-content:space-between}.mockmain{display:grid;grid-template-columns:90px 1fr;gap:12px;padding-top:12px}.mocknav div{padding:9px;border-radius:8px;font-size:11px;margin-bottom:5px}.mocknav .sel{background:var(--mint);color:#087e55}.chat{border:1px solid var(--line);border-radius:13px;padding:13px}.bubble{padding:10px 12px;border-radius:12px;max-width:78%;font-size:12px;line-height:1.4;margin:7px 0}.in{background:#f0f3f6}.out{background:var(--mint);margin-left:auto}
+.section{padding:72px 7%}.section h2{text-align:center;font-size:34px;margin:0 0 10px}.sub{text-align:center;color:var(--muted);max-width:680px;margin:0 auto 38px;line-height:1.6}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:25px;transition:.2s}.card:hover{transform:translateY(-4px);box-shadow:0 14px 35px #10243b10}.ico{font-size:31px}.card h3{margin:13px 0 8px}.card p{color:var(--muted);line-height:1.6;font-size:14px}
+.process{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.step{background:var(--navy);color:white;border-radius:18px;padding:25px}.num{width:34px;height:34px;border-radius:50%;background:var(--green);display:grid;place-items:center;font-weight:800}.step p{color:#c8d5e2;line-height:1.6;font-size:14px}
+.contact{background:#fff;display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}.contactbox{background:#f6faf8;border:1px solid #d9eee5;border-radius:18px;padding:25px}.contactbox input,.contactbox textarea,.contactbox select{width:100%;padding:13px;margin:7px 0 12px;border:1px solid var(--line);border-radius:10px;outline:none}.contactbox textarea{min-height:100px;resize:vertical}.status{display:none;margin-top:10px;background:var(--mint);padding:11px;border-radius:9px;color:#087e55}
+.footer{background:var(--navy);color:#c5d2df;text-align:center;padding:28px;font-size:13px}.footer strong{color:#fff}
+@media(max-width:850px){.hero,.contact{grid-template-columns:1fr}.cards,.process{grid-template-columns:1fr 1fr}.links>a{display:none}}
+@media(max-width:600px){.cards,.process{grid-template-columns:1fr}.hero{padding-top:55px}.nav{padding:0 4%}.brand{font-size:14px}.mark{width:36px;height:36px}}
+</style>
+</head>
+<body>
+<header class="nav">
+ <a class="brand" href="#"><div class="mark">V</div><span>VICT<b>STAR</b> Global Connect</span></a>
+ <nav class="links"><a href="#services">Services</a><a href="#how">How it works</a><a href="#contact">Contact</a><button class="btn primary" onclick="document.getElementById('contact').scrollIntoView()">Start a Request</button></nav>
+</header>
+
+<section class="hero">
+ <div>
+  <div class="eyebrow">DESIGN • WEB • DOCUMENT • DIGITAL SERVICES</div>
+  <h1>Your ideas.<br><span>Our digital skills.</span></h1>
+  <p>Welcome to VICTSTAR Global Connect. We help students, businesses and individuals with professional design, website creation, typing, editing and other digital services.</p>
+  <div class="actions"><a class="btn primary" href="#contact">Request a Service</a><a class="btn secondary" href="#services">View Services</a></div>
+ </div>
+ <div class="mock">
+  <div class="mockbar"><strong>VICTSTAR Support</strong><span>● Online</span></div>
+  <div class="mockmain"><div class="mocknav"><div class="sel">💬 Chat</div><div>📁 Requests</div><div>👤 Profile</div></div><div class="chat"><strong>Client Support</strong><div class="bubble in">Hello! I need help designing a flyer.</div><div class="bubble out">Hi! Send us your details and we'll help you get started.</div><div class="bubble in">Thank you! 🙏</div></div></div>
+ </div>
+</section>
+
+<section class="section" id="services">
+ <h2>Our Services</h2><p class="sub">Professional digital help for school, business, personal projects and more.</p>
+ <div class="cards">
+  <article class="card"><div class="ico">🎨</div><h3>Graphic Design</h3><p>Flyers, posters, logos, invitations, social media graphics and other visual designs.</p></article>
+  <article class="card"><div class="ico">💻</div><h3>Website Design</h3><p>Modern websites for businesses, organizations, students and personal brands.</p></article>
+  <article class="card"><div class="ico">⌨️</div><h3>Typing & Documents</h3><p>Typing, formatting, document preparation and clean digital copies of your work.</p></article>
+  <article class="card"><div class="ico">📝</div><h3>Editing</h3><p>Page and document editing to improve presentation, structure and readability.</p></article>
+  <article class="card"><div class="ico">📄</div><h3>CV & Applications</h3><p>Professional CV preparation and support with digital application documents.</p></article>
+  <article class="card"><div class="ico">✨</div><h3>Other Digital Services</h3><p>Have another digital task? Tell us what you need and we'll discuss it with you.</p></article>
+ </div>
+</section>
+
+<section class="section" id="how" style="background:#eef7f3">
+ <h2>How It Works</h2><p class="sub">Getting help from VICTSTAR is simple.</p>
+ <div class="process">
+  <div class="step"><div class="num">1</div><h3>Tell us what you need</h3><p>Choose a service and describe your project or task.</p></div>
+  <div class="step"><div class="num">2</div><h3>Talk to our team</h3><p>We discuss the details, requirements, timeline and next steps.</p></div>
+  <div class="step"><div class="num">3</div><h3>Receive your work</h3><p>Our team completes the task and sends the finished work or updates.</p></div>
+ </div>
+</section>
+
+<section class="section contact" id="contact">
+ <div><div class="eyebrow">START YOUR REQUEST</div><h2 style="text-align:left;margin-top:10px">Let's work on it.</h2><p style="color:var(--muted);line-height:1.7">Fill in the form and we'll have the request ready for the VICTSTAR team. This free version keeps the form local; when we connect a real backend later, submissions can be stored and routed to staff automatically.</p></div>
+ <form class="contactbox" onsubmit="submitRequest(event)">
+  <label>Name</label><input id="name" required placeholder="Your name">
+  <label>Service</label><select id="service"><option>Graphic Design</option><option>Website Design</option><option>Typing & Documents</option><option>Editing</option><option>CV & Applications</option><option>Other Digital Service</option></select>
+  <label>What do you need?</label><textarea id="request" required placeholder="Briefly describe what you need..."></textarea>
+  <button class="btn primary" style="width:100%">Submit Request</button><div class="status" id="status">Request saved on this device. Connect a backend later to receive it from real clients.</div>
+ </form>
+</section>
+
+<footer class="footer"><strong>VICTSTAR Global Connect</strong><br>Design • Websites • Typing • Editing • Digital Services<br><br>© 2026 VICTSTAR Global Connect</footer>
+
+<script>
+function submitRequest(e){e.preventDefault();document.getElementById('status').style.display='block';e.target.querySelector('button').textContent='Request Submitted ✓';}
+</script>
+</body>
+</html>
